@@ -32,7 +32,7 @@ int main (){
             if (b == 1){
                 printf ("La lista esta vacia\n");
             }else{
-                printf ("La lista no está vacia\n");
+                printf ("La lista no esta vacia\n");
             }
             break;
         case 2:
