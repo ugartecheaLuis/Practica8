@@ -66,7 +66,7 @@ int main(){
     printf ("Para la lista 1: ");
     imprimir (l1);
     p = buscar (l1, 3);
-    printf ("El elemento 3 se encuentra en la posicion %d\n", e, p);
+    printf ("El elemento 3 se encuentra en la posicion %d\n", p);
     p = buscar (l1, 17);
 
     printf ("\nPRUEBAS PARA LOCALIZAR\n");
