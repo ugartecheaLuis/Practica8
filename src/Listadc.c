@@ -197,6 +197,7 @@ void destruir (listac *l){
     free (l);
     l = NULL;
     printf ("La lista ya no existe\n");
+    return;
 }
 
 void imprimir(listac* l){
