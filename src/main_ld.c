@@ -56,13 +56,15 @@ int main (){
             printf ("Ingrese el elemento que desea encontrar:\n");
             scanf ("%d", &e);
             p = buscar (l, e);
-            printf ("El elemento %d se encuentra en la posicion %d\n", e, p);
+            if (p != -1){
+                printf ("El elemento %d se encuentra en la posicion %d\n", e, p);
+            }
             break;
         case 6:
             printf ("Ingrese la posicion para encontrar el elemento:\n");
             scanf ("%d", &p);
             e = localizar(l, p);
-            if (p > 0 && p < l->len){
+            if (p >= 0 && p < l->len){
                 printf ("En la posicion %d se encuentra el elemento %d\n", p, e);
             }
             break;
